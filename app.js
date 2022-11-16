@@ -57,8 +57,8 @@ const getUrls = async () =>{
 }
 
 (async () => {
-    console.log(colours.bright,colours.bg.red,"FLASH NEWS\n",colours.reset);
-    
+    console.log(colours.bright,colours.bg.red,"         FLASH NEWS         ",colours.reset);
+    console.log("");
     let bundle = await getUrls()
         news = bundle[0]
         source = bundle[1]
